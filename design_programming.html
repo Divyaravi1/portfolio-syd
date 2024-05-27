@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fishy Behaviour</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+     <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Template Main CSS File -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+       <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+    <div class="half-page" id="halfPage">
+        <div class="contain">
+            <h1>Fishy Behaviour</h1>
+
+            <h2>Exploring the behavioural pattern of Fish in their natural habitat</h2>
+            <p>This work explores the concept of emergence in nature whch is further studied in the flocking behavior of fish using the P5 library. 
+                This is a variation of a particle system representing “boids”, which mimics the behaviour of fish and birds.
+                Through the course of the project , the stimuli and the overall nature of the exploration was iterated on multiple times to finally result in the follow interactive project.
+                <p>There are two types of stimuli:
+                    <br>
+                    In areas that are green on the canvas, 
+                    a click represents a positive stimulus that causes the boids to move towards the position. 
+                    A positive stimulus also causes the creation of a flock mate. In areas that are red, 
+                    a click leads to a negative or dangerous stimulus, causing the boids to move away from that position.</p>
+                    
+                <h3>The objective is to create an engaging environment where users can experiment with the behavior of the fish. The boids' movements are governed by three rules: cohesion (moving towards neighbors), separation (avoiding crowding), and alignment (matching the direction of neighbors). 
+                  The P5 library facilitates the creation and visualization of this interactive simulation.</h3> 
+                 
+                  <h3>This project highlights the dynamic and emergent behaviors of fish schools, allowing users to interactively explore these phenomena.</h3>
+                </p>
+        </div>
+                
+    </div>
+    <div  class="custom-circle" id="customCircle"><span class="material-icons">info_outline</span>
+        <!--<span class="material-icons">
+            arrow_forward</span>-->
+      </div>
+        
+        <div>
+            <script type="text/javascript" src="./sketch.js"></script>
+        </div>
+
+        <div id="canvas"></div>
+
+    </div>
+     <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>, Modified by Divya Ravi
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+      
+</body>
+</html>
